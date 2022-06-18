@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    width: 1440px;
+    height: fit-content;
+ 
+}
+header{
+    background: url(images/bg-hero-desktop.svg);
+    width: 100%;
+    height: 400px;
+    padding: 2%;
+    background-color: rgb(193, 224, 235);
+}
+.first{
+    width: 90%;
+    height: 20%;
+}
+.img0{
+    height: 40px; 
+    width: 100px;
+    float: left;
+}
+.button1{
+    margin-left:900px;
+    height:40px;
+    width:150px;
+    border-radius:10px; 
+    color: blue;
+    background-color:white;
+    border:0px
+}
+.button1:hover{
+    margin-left:900px;
+    height:40px;
+    width:150px;
+    border-radius:10px; 
+    background-color:gray;
+    color: white;
+    border:0px
+}
+.button1:active{
+    margin-left:900px;
+    height:40px;
+    width:150px;
+    border-radius:10px; 
+    background-color:silver;
+    color: white;
+    border:0px
+}
+.second{
+    width: 45%;
+    font-weight: bold;
+    height: 80%;
+    margin-top: 30px;
+    float: left;
+}
+h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button2{
+    border-radius:15px; 
+    height:40px;
+    width:230px;
+    color:white;
+    margin-top:20px;
+    font-weight: bold;
+    background-color: rgb(211, 47, 211);
+    border: 0px;
+}
+.button2:hover{
+    border-radius:15px; 
+    height:40px;
+    width:230px;
+    color:purple;
+    margin-top:20px;
+    font-weight: bold;
+    background-color: pink;
+    border: 0px;
+}
+.button2:active{
+    border-radius:15px; 
+    height:40px;
+    width:230px;
+    color:whitesmoke;
+    margin-top:20px;
+    font-weight: bold;
+    background-color: purple;
+    border: 0px;
+}
+.img1{
+    height: 300px; 
+    width: 400px;
+    margin-left: 100px;
+}
+main{
+    width: 100%;
+    height: 1200px;
+    padding: 2%;
+    background-color: white;
+}
+#main-first{
+    width: 90%;
+    height: 30%;
+    margin-top: 30px;
+    margin-left:20px;
+    border: 1px black solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+.container{
+   width: 44%;
+   height: 90%;
+   float: left;
+}
+.smallerh11{
+    width: 45%;
+    height: 20%;
+    margin-top: 70px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.smallerp1{
+    width: 45%;
+    height: 40%;
+    margin-left: 200px;
+    font-size: 16px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img2{
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 300px; 
+    width: 400px;
+}
+.main-second{
+    width: 90%;
+    height: 30%;
+    margin-top: 30px;
+    margin-left:20px;
+    border: 1px black solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+.img3{
+    margin-top: 20px;
+    height: 300px; 
+    width: 400px;
+}
+.smallerh12{
+    width: 45%;
+    height: 20%;
+    margin-top: 80px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.smallerp2{
+    width: 45%;
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 16px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main-third{
+    width: 90%;
+    height: 30%;
+    margin-top: 30px;
+    margin-left:20px;
+    border: 1px black solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+.smallerh13{
+    width: 45%;
+    height: 20%;
+    margin-top: 70px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.smallerp3{
+    width: 45%;
+    height: 40%;
+    margin-left: 200px;
+    font-size: 16px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img4{
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 300px; 
+    width: 400px;
+}
+aside{
+    width: 100%;
+    height: 150px;
+    
+    
+}
+#aside{
+    width: 60%;
+    height: 95%;
+    margin-top: 30px;
+    margin-left:15%;
+    text-align: center;
+    border: 1px black solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+aside h1{
+    font-size: 36px;
+}
+.button3{
+    border-radius:15px; 
+    height:40px;
+    width:230px;
+    color:white;
+    margin-top:20px;
+    font-weight: bold;
+    background-color: rgb(211, 47, 211);
+    border: 0px;
+    margin-top: 40px;
+}
+.button3:hover{
+    border-radius:15px; 
+    height:40px;
+    width:230px;
+    color:purple;
+    margin-top:20px;
+    font-weight: bold;
+    background-color: pink;
+    border: 0px;
+    margin-top: 40px;
+}
+.button3:active{
+    border-radius:15px; 
+    height:40px;
+    width:230px;
+    color:whitesmoke;
+    margin-top:20px;
+    font-weight: bold;
+    background-color: purple;
+    border: 0px;
+    margin-top: 40px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: hsl(209, 88%, 17%);
+    color: white;
+}
+.span{
+    margin-left: 10px;
+    text-align: justify;
+}
+@media screen and (max-width: 375px) {
+    body{
+        width: auto;
+        height: fit-content; 
+    }   
+    header{
+        background: url(images/bg-hero-mobile.svg);
+        width: 100%;
+        height: 400px;
+        padding: 1%;
+        background-color: rgb(193, 224, 235);
+    }
+    .first{
+        width: 90%;
+        height: 8%;
+    }
+    .img0{
+        height: 30px; 
+        width: 75px;
+        float: left;
+    }
+    .button1{
+        margin-left:30%;
+        height:30px;
+        width:100px;
+        border-radius:10px; 
+        color: blue;
+        background-color:white;
+        border:0px;
+    }
+    .button1:hover{
+        margin-left:130px;
+        height:30px;
+        width:100px;
+        border-radius:10px; 
+        background-color:gray;
+        color: white;
+        border:0px
+    }
+    .button1:active{
+        margin-left:130px;
+        height:30px;
+        width:100px;
+        border-radius:10px; 
+        background-color:silver;
+        color: white;
+        border:0px
+    }
+    .second{
+        width: 95%;
+        font-weight: bold;
+        height: 40%;
+        text-align: center;
+    }
+    h1{
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    p{
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .button2{
+        border-radius:15px; 
+        height:25px;
+        width:100x;
+        color:white;
+        margin-top:10px;
+        font-weight: bold;
+        background-color: rgb(211, 47, 211);
+        border: 0px;
+    }
+    .button2:hover{
+        border-radius:15px; 
+        height:25px;
+        width:100x;
+        color:purple;
+        margin-top:10px;
+        font-weight: bold;
+        background-color: pink;
+        border: 0px;
+    }
+    .button2:active{
+        border-radius:15px; 
+        height:25px;
+        width:100x;
+        color:whitesmoke;
+        margin-top:10px;
+        font-weight: bold;
+        background-color: purple;
+        border: 0px;
+    }
+    .img1{
+        height: 150px; 
+        width: 200px;
+        margin-left: 60px;
+    }
+}
